@@ -227,8 +227,8 @@ Q.new_middle_qol = 100;
 Q.classes = ['workers', 'old_middle', 'new_middle', 'farmowners', 'peasants', 'industrialists_and_aristocracy'];
 Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap',];
 
-// TODO: add 'spdd' later on
-Q.spdd_formed = 0;
+// TODO: add 'sapd' later on
+Q.sapd_formed = 0;
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -311,9 +311,9 @@ Q.old_dnvp_r = 20;
 Q.old_nsdap_r = 3;
 
 
-// spdd isn't formed yet, but it may be formed
-Q.spdd_r = 0;
-Q.old_spdd_r = 0;
+// sapd isn't formed yet, but it may be formed
+Q.sapd_r = 0;
+Q.old_sapd_r = 0;
 
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];

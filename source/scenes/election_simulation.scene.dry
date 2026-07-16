@@ -16,7 +16,7 @@ Q.peasants = 19;
 Q.industrialists_and_aristocracy = 1.4;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'farmowners', 'peasants', 'industrialists_and_aristocracy'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap',];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -27,7 +27,6 @@ Q.workers_ddp = 0;
 Q.workers_dvp = 0;
 Q.workers_dnvp = 5;
 Q.workers_nsdap = 0;
-Q.workers_other = 10;
 
 Q.old_middle_spd = 5;
 Q.old_middle_kpd = 0;
@@ -36,7 +35,6 @@ Q.old_middle_ddp= 10;
 Q.old_middle_dvp = 25;
 Q.old_middle_dnvp = 25;
 Q.old_middle_nsdap = 10;
-Q.old_middle_other = 10;
 
 Q.new_middle_spd = 5;
 Q.new_middle_kpd = 0;
@@ -45,7 +43,6 @@ Q.new_middle_ddp= 25;
 Q.new_middle_dvp = 25;
 Q.new_middle_dnvp = 10;
 Q.new_middle_nsdap = 5;
-Q.new_middle_other = 15;
 
 Q.farmowners_spd = 10;
 Q.farmowners_kpd = 0;
@@ -54,7 +51,6 @@ Q.farmowners_ddp= 5;
 Q.farmowners_dvp = 15;
 Q.farmowners_dnvp = 45;
 Q.farmowners_nsdap = 5;
-Q.farmowners_other = 10;
 
 Q.peasants_spd = 25;
 Q.peasants_kpd = 55;
@@ -63,7 +59,6 @@ Q.peasants_ddp = 0;
 Q.peasants_dvp = 0;
 Q.peasants_dnvp = 5;
 Q.peasants_nsdap = 15;
-Q.peasants_other = 9;
 
 Q.industrialists_and_aristocracy_spd = 15;
 Q.industrialists_and_aristocracy_kpd = 5;
@@ -72,7 +67,7 @@ Q.industrialists_and_aristocracy_ddp = 0;
 Q.industrialists_and_aristocracy_dvp = 5;
 Q.industrialists_and_aristocracy_dnvp = 5;
 Q.industrialists_and_aristocracy_nsdap = 0;
-Q.industrialists_and_aristocracy_other = 10;
+
 !}
 go-to: election_algorithm
 set-jump: post_election
@@ -87,7 +82,7 @@ Q.peasants = 19;
 Q.industrialists_and_aristocracy = 1.4;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'farmowners', 'peasants', 'industrialists_and_aristocracy'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', ];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -98,7 +93,7 @@ Q.workers_ddp = 0;
 Q.workers_dvp = 0;
 Q.workers_dnvp = 0;
 Q.workers_nsdap = 10;
-Q.workers_other = 15;
+
 
 Q.old_middle_spd = 5;
 Q.old_middle_kpd = 0;
@@ -107,7 +102,7 @@ Q.old_middle_ddp= 5;
 Q.old_middle_dvp = 10;
 Q.old_middle_dnvp = 20;
 Q.old_middle_nsdap = 30;
-Q.old_middle_other = 15;
+
 
 Q.new_middle_spd = 5;
 Q.new_middle_kpd = 0;
@@ -116,7 +111,7 @@ Q.new_middle_ddp = 10;
 Q.new_middle_dvp = 20;
 Q.new_middle_dnvp = 10;
 Q.new_middle_nsdap = 25;
-Q.new_middle_other = 15;
+
 
 Q.farmowners_spd = 5;
 Q.farmowners_kpd = 0;
@@ -125,7 +120,7 @@ Q.farmowners_ddp= 5;
 Q.farmowners_dvp = 10;
 Q.farmowners_dnvp = 20;
 Q.farmowners_nsdap = 25;
-Q.farmowners_other = 15;
+
 
 Q.peasants_spd = 20;
 Q.peasants_kpd = 50;
@@ -134,7 +129,7 @@ Q.peasants_ddp = 0;
 Q.peasants_dvp = 0;
 Q.peasants_dnvp = 5;
 Q.peasants_nsdap = 25;
-Q.peasants_other = 5;
+
 
 Q.industrialists_and_aristocracy_spd = 10;
 Q.industrialists_and_aristocracy_kpd = 5;
@@ -143,7 +138,7 @@ Q.industrialists_and_aristocracy_ddp = 0;
 Q.industrialists_and_aristocracy_dvp = 5;
 Q.industrialists_and_aristocracy_dnvp = 5;
 Q.industrialists_and_aristocracy_nsdap = 10;
-Q.industrialists_and_aristocracy_other = 5;
+
 
 Q.spd_r = 25;
 Q.kpd_r = 10;
@@ -152,7 +147,7 @@ Q.ddp_r = 10;
 Q.dvp_r = 10;
 Q.dnvp_r = 14;
 Q.nsdap_r = 10;
-Q.other_r = 5;
+
 !}
 go-to: election_algorithm
 set-jump: post_election
@@ -167,7 +162,7 @@ Q.peasants = 19;
 Q.industrialists_and_aristocracy = 1.4;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'farmowners', 'peasants', 'industrialists_and_aristocracy'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', ];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -178,7 +173,6 @@ Q.workers_ddp = 0;
 Q.workers_dvp = 0;
 Q.workers_dnvp = 0;
 Q.workers_nsdap = 15;
-Q.workers_other = 5;
 
 Q.old_middle_spd = 0;
 Q.old_middle_kpd = 0;
@@ -187,7 +181,6 @@ Q.old_middle_ddp = 4;
 Q.old_middle_dvp = 4;
 Q.old_middle_dnvp = 15;
 Q.old_middle_nsdap = 70;
-Q.old_middle_other = 5;
 
 Q.new_middle_spd = 5;
 Q.new_middle_kpd = 0;
@@ -196,7 +189,6 @@ Q.new_middle_ddp = 10;
 Q.new_middle_dvp = 10;
 Q.new_middle_dnvp = 10;
 Q.new_middle_nsdap = 60;
-Q.new_middle_other = 5;
 
 Q.farmowners_spd = 0;
 Q.farmowners_kpd = 0;
@@ -205,7 +197,6 @@ Q.farmowners_ddp = 0;
 Q.farmowners_dvp = 5;
 Q.farmowners_dnvp = 15;
 Q.farmowners_nsdap = 65;
-Q.farmowners_other = 5;
 
 Q.peasants_spd = 20;
 Q.peasants_kpd = 40;
@@ -214,7 +205,6 @@ Q.peasants_ddp = 0;
 Q.peasants_dvp = 0;
 Q.peasants_dnvp = 0;
 Q.peasants_nsdap = 50;
-Q.peasants_other = 5;
 
 Q.industrialists_and_aristocracy_spd = 10;
 Q.industrialists_and_aristocracy_kpd = 5;
@@ -223,7 +213,6 @@ Q.industrialists_and_aristocracy_ddp = 0;
 Q.industrialists_and_aristocracy_dvp = 5;
 Q.industrialists_and_aristocracy_dnvp = 5;
 Q.industrialists_and_aristocracy_nsdap = 10;
-Q.industrialists_and_aristocracy_other = 5;
 
 Q.spd_r = 25;
 Q.kpd_r = 10;
@@ -232,7 +221,6 @@ Q.ddp_r = 10;
 Q.dvp_r = 10;
 Q.dnvp_r = 14;
 Q.nsdap_r = 10;
-Q.other_r = 5;
 !}
 go-to: election_algorithm
 set-jump: post_election
@@ -247,7 +235,7 @@ Q.ddp_r = Q.ddp_votes;
 Q.dvp_r = Q.dvp_votes;
 Q.dnvp_r = Q.dnvp_votes;
 Q.nsdap_r = Q.nsdap_votes;
-Q.other_r = Q.other_votes;
+
 
 // The largest party can only be the NSDAP or the SPD.
 Q.largest_party = 'SPD';
@@ -261,16 +249,16 @@ if (Q.kpd_r >= Q.spd_r && Q.kpd_r >= Q.nsdap_r) {
 // coalitions
 Q.weimar_coalition = Q.spd_r + Q.ddp_r + Q.z_r - 3;
 Q.grand_coalition = Q.spd_r + Q.ddp_r + Q.z_r + Q.dvp_r;
-Q.bourgeois_coalition = Q.ddp_r + Q.z_r + Q.dvp_r + Q.other_r;
-Q.center_right_coalition = Q.z_r + Q.ddp_r + Q.dvp_r + Q.other_r + Q.dnvp_r;
-Q.right_coalition = Q.z_r + Q.dvp_r + Q.other_r + Q.dnvp_r;
+Q.bourgeois_coalition = Q.ddp_r + Q.z_r + Q.dvp_r;
+Q.center_right_coalition = Q.z_r + Q.ddp_r + Q.dvp_r + Q.dnvp_r;
+Q.right_coalition = Q.z_r + Q.dvp_r + Q.dnvp_r;
 Q.far_right_coalition = Q.dnvp_r + Q.nsdap_r;
 Q.left_coalition = Q.spd_r + Q.kpd_r;
 // this is an absurd concept lol
 Q.united_front_coalition = Q.spd_r + Q.kpd_r + Q.z_r + Q.ddp_r - 3;
 Q.anti_democratic_coalition = Q.kpd_r + Q.nsdap_r;
 // aka everyone except nazi, kpd, dnvp
-Q.neo_weimar_coalition = Q.spd_r + Q.ddp_r + Q.z_r + Q.dvp_r + Q.other_r;
+Q.neo_weimar_coalition = Q.spd_r + Q.ddp_r + Q.z_r + Q.dvp_r;
 !}
 
 The electoral system is essentially proportional, with the proportion of Reichstag seats roughly equal to the proportion of votes.
@@ -298,8 +286,6 @@ DNVP: [+ dnvp_r +]
 # 1928: 3, 1930: 18
 NSDAP: [+ nsdap_r +]
 
-# 1928: 9, 1930: 10
-Other: [+ other_r +]
 
 **Potential coalitions:**
 

@@ -317,11 +317,8 @@ if (Q.month_actions >= 1) {
         Q.new_middle_ddp -= 5/12;
         Q.old_middle_ddp -= 6/12;
         Q.new_middle_nsdap += 10/12;
-        Q.old_middle_nsdap += 10/12;
-        Q.new_middle_other += 4/12;
-        Q.old_middle_other += 4/12;
+        Q.old_middle_nsdap += 10/12;        
         Q.peasants_nsdap += 8/12;
-        Q.farmowners_other += 5/12;
 
         Q.workers_z += 1/12;
         Q.old_middle_z += 2/12;
@@ -330,7 +327,6 @@ if (Q.month_actions >= 1) {
             Q.farmowners_nsdap += 3/12;
             Q.old_middle_nsdap += 5/12;
             Q.workers_nsdap += 2/12;
-            Q.workers_other += 5/12;
             Q.workers_kpd += 2/12;
         }
         Q.sa_strength += 100/12;
@@ -346,7 +342,6 @@ if (Q.month_actions >= 1) {
         Q.sh_strength += 50/12;
         Q.sa_militancy += 0.1/12;
         Q.old_middle_nsdap += 10/12;
-        Q.farmowners_other -= 5/12;
         Q.farmowners_nsdap += 9/12;
         // TODO: economic policies should reduce NSDAP farmownerss
         if (!Q.works_program) {
@@ -356,7 +351,6 @@ if (Q.month_actions >= 1) {
             Q.workers -= 4/12;
             Q.peasants_nsdap += 7/12;
             Q.peasants_kpd += 2/12;
-            Q.farmowners_other -= 12/12;
             Q.farmowners_nsdap += 12/12;
             Q.new_middle_nsdap += 12/12;
             Q.old_middle_nsdap += 12/12;
@@ -374,8 +368,6 @@ if (Q.month_actions >= 1) {
             Q.farmowners_nsdap += 4/12;
         }
     } else if (Q.year == 1932) {
-        Q.old_middle_other -= 7/12;
-        Q.farmowners_other -= 7/12;
         Q.old_middle_nsdap += 7/12;
         Q.farmowners_nsdap += 7/12;
         Q.peasants_nsdap += 4/12;
