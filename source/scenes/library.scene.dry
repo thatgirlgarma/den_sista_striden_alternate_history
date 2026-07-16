@@ -199,7 +199,7 @@ Farmowners: SPD: [+ farmowners_spd_display +]%, Z: [+ farmowners_z_display +]%, 
 
 Peasants: SPD: [+ peasants_spd_display +]%, Z: [+ peasants_z_display +]%, KPD: [+ peasants_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ peasants_ddp_display +]%, DVP: [+ peasants_dvp_display +]%; DNVP: [+ peasants_dnvp_display +]%, NSDAP: [+ peasants_nsdap_display +]%, [? if sapd_formed: SAPD: [+ peasants_sapd_display +]% ?]
 
-Industrialists and Aristocracy: SPD: [+ industrialists_and_aristocracy_spd_display +]%, Z: [+ industrialists_and_aristocracy_z_display +]%, KPD: [+ industrialists_and_aristocracy_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ industrialists_and_aristocracy_ddp_display +]%, DVP: [+ industrialists_and_aristocracy_dvp_display +]%; DNVP: [+ industrialists_and_aristocracy_dnvp_display +]%, NSDAP: [+ industrialists_and_aristocracy_nsdap_display +]%, [? if sapd_formed: SAPD: [+ industrialists_and_aristocracy_sapd_display +]% ?]
+Industrialists and Aristocrats: SPD: [+ industrialists_and_aristocrats_spd_display +]%, Z: [+ industrialists_and_aristocrats_z_display +]%, KPD: [+ industrialists_and_aristocrats_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ industrialists_and_aristocrats_ddp_display +]%, DVP: [+ industrialists_and_aristocrats_dvp_display +]%; DNVP: [+ industrialists_and_aristocrats_dnvp_display +]%, NSDAP: [+ industrialists_and_aristocrats_nsdap_display +]%, [? if sapd_formed: SAPD: [+ industrialists_and_aristocrats_sapd_display +]% ?]
 
 
 @parties
@@ -220,7 +220,7 @@ Current relations: [+ ddp_relation : relationships +]
 
 Current relations: [+ dvp_relation : relationships +]
 
-**DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
+**DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements. It is supported by the former aristocrats, rural landowners, and conservative Lutherans.
 
 Current relations: [+ dnvp_relation : relationships +]
 

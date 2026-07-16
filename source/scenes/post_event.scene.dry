@@ -274,8 +274,8 @@ if (Q.month_actions >= 1) {
         if (Q.workers_spd_normalized > 30) {
             Q.workers_spd -= 4/12;
         }
-        if (Q.industrialists_and_aristocracy_spd > 0) {
-            Q.industrialists_and_aristocracy_spd -= 4/12;
+        if (Q.industrialists_and_aristocrats_spd > 0) {
+            Q.industrialists_and_aristocrats_spd -= 4/12;
         }
         if (Q.peasants_spd_normalized > 10) {
             Q.peasants_spd -= 4/12;
@@ -332,7 +332,7 @@ if (Q.month_actions >= 1) {
         Q.sa_strength += 100/12;
         Q.sh_strength += 100/12;
     } else if (Q.year == 1931) {
-        Q.industrialists_and_aristocracy_z += 2/12;
+        Q.industrialists_and_aristocrats_z += 2/12;
         Q.farmowners_dvp -= 8/12;
         Q.old_middle_dvp -= 8/12;
         Q.new_middle_dvp -= 8/12;
@@ -374,7 +374,7 @@ if (Q.month_actions >= 1) {
         if (!Q.works_program) {
             Q.peasants += 5/12;
             Q.inflation -= 2/12;
-            Q.industrialists_and_aristocracy_z += 2/12;
+            Q.industrialists_and_aristocrats_z += 2/12;
             Q.workers -= 4/12;
             Q.farmowners_dnvp -= 4/12;
             Q.farmowners_nsdap += 8/12;
@@ -417,8 +417,8 @@ if (Q.month_actions >= 1) {
             if (Q.farmowners_dnvp_normalized < 40) {
                 Q.farmowners_dnvp += 6/12;
             }
-            if (Q.industrialists_and_aristocracy_z_normalized < 40) {
-                Q.industrialists_and_aristocracy_z += 6/12;
+            if (Q.industrialists_and_aristocrats_z_normalized < 40) {
+                Q.industrialists_and_aristocrats_z += 6/12;
             }
         }
         if (Q.peasants > 20) {
@@ -448,8 +448,8 @@ if (Q.month_actions >= 1) {
         if (Q.farmowners_spd_normalized > 20) {
             Q.farmowners_spd -= 6/12;
         }
-        if (Q.industrialists_and_aristocracy_spd_normalized > 20) {
-            Q.industrialists_and_aristocracy_spd -= 6/12;
+        if (Q.industrialists_and_aristocrats_spd_normalized > 20) {
+            Q.industrialists_and_aristocrats_spd -= 6/12;
         }
     }
 }

@@ -41,7 +41,7 @@ The Nazis are the fault of the petit bourgeoisie. It is not our responsibility a
 @p2
 on-arrival: peoples_party_support += 1; neorevisionist_strength += 5; left_strength -= 3; left_dissent += 4; center_dissent += 3;
 
-We can combat the Nazis by adopting a "People's Party" posture that might compete for support among the middle class. In order to do this, we can create a new and inclusive vision of the party that encompasses all people who work for a living, which is almost everyone in the country save the aristocrats and top capitalists.
+We can combat the Nazis by adopting a "People's Party" posture that might compete for support among the middle class. In order to do this, we can create a new and inclusive vision of the party that encompasses all people who work for a living, which is almost everyone in the country save the top capitalists.
 
 [? if peoples_party = 0 : This effort faces great opposition from the left and center of our party, who would prefer a party focused on the working class. To fully adopt the vision of a people's party, we should increase our campaigning among other demographics. ?]
 
